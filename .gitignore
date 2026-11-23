@@ -52,3 +52,6 @@
 !.env.sample
 desktop.ini
 Thumbs.db
+
+# Descargas incompletas conservadas solo para revision local.
+05_bibliografia/pendientes_revision/

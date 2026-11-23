@@ -18,7 +18,7 @@ Ejercicios resueltos, apuntes y reportes de laboratorio sobre circuitos eléctri
 |---|---|
 | [Consultar la guía del parcial](03_guias/g01_primer_parcial.pdf) | Punto de entrada para repasar la teoría. |
 | [Resolver redes serie-paralelo](01_ejercicios/lista_01_circuitos_serie_paralelo.pdf) | Lista de ejercicios de circuitos. |
-| [Revisar las mediciones](02_practicas/) | Reportes y evidencias de las cuatro prácticas. |
+| [Revisar las mediciones](02_practicas/) | Reportes y evidencias de las cinco prácticas. |
 
 ## Programa de estudios
 
@@ -42,8 +42,8 @@ El programa describe el alcance de la asignatura. Las carpetas siguientes muestr
 
 | Carpeta | Contenido |
 |---|---|
-| [Ejercicios](01_ejercicios/) · `01_ejercicios` | Listas de circuitos serie-paralelo y leyes de Kirchhoff. |
-| [Laboratorio](02_practicas/) · `02_practicas` | Multímetro, ley de Ohm, Kirchhoff y osciloscopio. |
+| [Ejercicios](01_ejercicios/) · `01_ejercicios` | Serie-paralelo, Kirchhoff, división de voltaje y análisis de mallas. |
+| [Laboratorio](02_practicas/) · `02_practicas` | Multímetro, ley de Ohm, Kirchhoff, osciloscopio y divisores de voltaje y corriente. |
 | [Guías](03_guias/) · `03_guias` | Repaso del primer parcial. |
 | [Apuntes](04_apuntes/) · `04_apuntes` | Cuaderno y notas de clase. |
 
@@ -59,6 +59,7 @@ Los números de actividad conservan la identificación de las entregas; las guí
 | [P02 · Ley de Ohm](02_practicas/p02_ley_de_ohm/) | Relación entre tensión, corriente y resistencia. |
 | [P03 · Kirchhoff](02_practicas/p03_leyes_de_kirchhoff/) | Comparación del análisis de nodos y mallas con las mediciones. |
 | [P04 · Osciloscopio](02_practicas/p04_manejo_del_osciloscopio/) | Observación de señales y lectura de sus parámetros. |
+| [P05 · Divisores](02_practicas/p05_divisor_de_voltaje_y_de_corriente/) | Guía de laboratorio y reporte de divisores de voltaje y corriente. |
 
 Para estudiar una práctica, lee el reporte, reproduce el cálculo y contrástalo con las evidencias de medición. Anota unidades, polaridades y valores de los componentes para que la comparación tenga sentido.
 
