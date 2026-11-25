@@ -1,0 +1,123 @@
+VERIFICACIÓN DE LA GUÍA P05
+
+Método 1: reducción serie/paralelo y ley de Ohm.
+Método 2: análisis nodal modificado sobre los grupos internos de la protoboard.
+Se comprobaron corrientes con amperímetro ideal de 0 V en cada abertura.
+No se incluye el efecto de resistencia interna, tolerancia o carga real del instrumento.
+
+Materiales y topologías: documento del usuario.
+Tinkercad ejecutado: únicamente montaje A. https://www.tinkercad.com/things/2azKM94o36E/editel
+
+[
+  {
+    "circuito": "A",
+    "nodos": {
+      "L18": 0,
+      "L13": 2.7586206896551726,
+      "L3": 10.0,
+      "L8": 5.073891625615764
+    },
+    "corrientes_A": {
+      "R1": 0.004926108374384236,
+      "R2": 0.004926108374384237,
+      "R3": 0.0049261083743842365
+    },
+    "potencia_max_W": 0.024266543716178497,
+    "verificaciones": [
+      "Reducción serie/paralelo",
+      "Análisis nodal de grupos de protoboard",
+      "Inserción de amperímetro ideal en cada rama",
+      "Sin patas duplicadas ni resistor cortocircuitado"
+    ]
+  },
+  {
+    "circuito": "B",
+    "nodos": {
+      "L23": 0,
+      "L13": 5.0,
+      "L18": 1.5625,
+      "L3": 10.0,
+      "L8": 8.4375
+    },
+    "corrientes_A": {
+      "R1": 0.0015625,
+      "R2": 0.0015625,
+      "R3a": 0.0015625,
+      "R3b": 0.0015625
+    },
+    "potencia_max_W": 0.005371093750000001,
+    "verificaciones": [
+      "Reducción serie/paralelo",
+      "Análisis nodal de grupos de protoboard",
+      "Inserción de amperímetro ideal en cada rama",
+      "Sin patas duplicadas ni resistor cortocircuitado"
+    ]
+  },
+  {
+    "circuito": "C",
+    "nodos": {
+      "L28": 0,
+      "L13": 4.000000000000001,
+      "L18": 3.0000000000000004,
+      "L23": 1.5,
+      "L3": 10.0,
+      "L8": 5.0
+    },
+    "corrientes_A": {
+      "R1": 0.005,
+      "R2a": 0.004999999999999996,
+      "R2b": 0.005000000000000002,
+      "R3a": 0.005000000000000002,
+      "R3b": 0.005
+    },
+    "potencia_max_W": 0.025,
+    "verificaciones": [
+      "Reducción serie/paralelo",
+      "Análisis nodal de grupos de protoboard",
+      "Inserción de amperímetro ideal en cada rama",
+      "Sin patas duplicadas ni resistor cortocircuitado"
+    ]
+  },
+  {
+    "circuito": "D",
+    "nodos": {
+      "L18": 0,
+      "L3": 10.0,
+      "L8": 3.626373626373627
+    },
+    "corrientes_A": {
+      "R1": 0.006373626373626373,
+      "R2": 0.003626373626373627,
+      "R3": 0.0016483516483516486,
+      "R4": 0.0010989010989010991
+    },
+    "potencia_max_W": 0.04062311315058567,
+    "verificaciones": [
+      "Reducción serie/paralelo",
+      "Análisis nodal de grupos de protoboard",
+      "Inserción de amperímetro ideal en cada rama",
+      "Sin patas duplicadas ni resistor cortocircuitado"
+    ]
+  },
+  {
+    "circuito": "E",
+    "nodos": {
+      "L18": 0,
+      "L13": 5.076923076923078,
+      "L3": 10.0,
+      "L8": 8.461538461538463
+    },
+    "corrientes_A": {
+      "R1": 0.0015384615384615365,
+      "R2": 0.0015384615384615387,
+      "R3": 0.001538461538461539
+    },
+    "potencia_max_W": 0.00781065088757397,
+    "verificaciones": [
+      "Reducción serie/paralelo",
+      "Análisis nodal de grupos de protoboard",
+      "Inserción de amperímetro ideal en cada rama",
+      "Sin patas duplicadas ni resistor cortocircuitado"
+    ]
+  }
+]
